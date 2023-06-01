@@ -13,10 +13,10 @@ services:
     # Reflect File changes from host to container
     volumes:
       - ./api:/subhan/src/app
-      - /subhan/src/app/node_modules
+      - /subhan/src/app/node_modules/
     # RUN in debug mode: npm run start:debug --> Also start your vscode debugger
     # Run in dev mode: npm run start:dev
-    command: npm run start:debug
+    command: npm run start:dev
     depends_on: 
       - postgres
     environment:
