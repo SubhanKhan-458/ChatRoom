@@ -18,7 +18,7 @@ import { SocketIoConfig, SocketIoModule } from 'ngx-socket-io';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
